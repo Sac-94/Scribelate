@@ -1,4 +1,4 @@
-# Transcribe 🎙️
+# Scribelate 🎙️
 
 An elegant, modern, edge-to-edge Android application that effortlessly converts audio files and chat voice messages into written text in real time. Built with **Kotlin**, **Android Gradle Plugin 9.5+**, and **Material Design 3**.
 
@@ -6,7 +6,7 @@ An elegant, modern, edge-to-edge Android application that effortlessly converts 
 
 ## ✨ Features
 
-- **Seamless Voice Message Share Target**: Share any audio or voice note directly from WhatsApp, Telegram, or other messaging apps straight into Transcribe via the floating bottom overlay—no need to switch out of your chat!
+- **Seamless Voice Message Share Target**: Share any audio or voice note directly from WhatsApp, Telegram, or other messaging apps straight into Scribelate via the floating bottom overlay—no need to switch out of your chat!
 - **Fast & Accurate Speech-to-Text**: Powered by the [ElevenLabs API](https://elevenlabs.io) for high-accuracy speech transcription.
 - **Instant Translation Options**:
   - **Google Translate App Integration**: Hand off transcripts directly to the installed Google Translate app (no extra API key needed).
@@ -22,16 +22,16 @@ An elegant, modern, edge-to-edge Android application that effortlessly converts 
 
 ## 📱 How to Use
 
-### 1. Transcribe Voice Messages from WhatsApp / Telegram
+### 1. Scribelate Voice Messages from WhatsApp / Telegram
 1. Select a voice message or audio file in any chat app and tap **Share**.
-2. Choose **Transcribe**.
-3. A sleek floating card opens over your chat displaying the transcribed text.
+2. Choose **Scribelate**.
+3. A sleek floating card opens over your chat displaying the Scribelated text.
 4. Tap **Copy**, **Share**, or **Translate** as desired, then dismiss the overlay to return seamlessly to your conversation.
 
-### 2. Transcribe Local Audio Files
-1. Open the **Transcribe** app from your home screen or app drawer.
+### 2. Scribelate Local Audio Files
+1. Open the **Scribelate** app from your home screen or app drawer.
 2. Tap **Pick an audio file** to choose any local audio recording.
-3. Tap **Process Audio** to transcribe and translate.
+3. Tap **Process Audio** to Scribelate and translate.
 
 ---
 
