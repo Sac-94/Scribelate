@@ -45,6 +45,9 @@ jobs:
         run: ./gradlew assembleRelease --no-daemon -Porg.gradle.java.installations.auto-download=false
         env:
           KEYSTORE_FILE: release.keystore
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
 
       - name: Rename APK with Version
         run: |
