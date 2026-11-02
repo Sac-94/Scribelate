@@ -35,7 +35,8 @@ jobs:
       - name: Grant Execute Permission for Gradlew
         run: chmod +x gradlew
 
-      - name: Decode Keystore from Secrets
+      - name: Decode Keystore
+        id: decode_keystore
         uses: timheuer/base64-to-file@v1.2
         with:
           fileName: 'release.keystore'
@@ -44,7 +45,7 @@ jobs:
       - name: Build Release APK
         run: ./gradlew assembleRelease --no-daemon -Porg.gradle.java.installations.auto-download=false
         env:
-          KEYSTORE_FILE: ${{ steps.Decode_Keystore_from_Secrets.outputs.filePath }}
+          KEYSTORE_FILE: ${{ steps.decode_keystore.outputs.filePath }}
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
