@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left Sound Waves -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M33,45c-2.2,2.2 -2.2,5.8 0,8c-2.2,2.2 -2.2,5.8 0,8"
+        android:strokeColor="#EADDFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M27,48c-1.5,1.5 -1.5,4.5 0,6c-1.5,1.5 -1.5,4.5 0,6"
+        android:strokeColor="#EADDFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.6" />
+
+    <!-- Center Microphone Capsule -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34c-4.4,0 -8,3.6 -8,8v12c0,4.4 3.6,8 8,8s8,-3.6 8,-8V42c0,-4.4 -3.6,-8 -8,-8z" />
+
+    <!-- Microphone Arc & Stand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67,52c0,7.2 -5.8,13 -13,13s-13,-5.8 -13,-13h-3c0,8.3 6.3,15.1 14.5,15.9V72h-5v3h13v-3h-5v-4.1c8.2,-0.8 14.5,-7.6 14.5,-15.9H67z" />
+
+    <!-- Right Text Lines (Transcribed Text) -->
+    <path
+        android:fillColor="#EADDFF"
+        android:pathData="M73,43h10c0.8,0 1.5,0.7 1.5,1.5s-0.7,1.5 -1.5,1.5H73c-0.8,0 -1.5,-0.7 -1.5,-1.5s0.7,-1.5 1.5,-1.5z" />
+    <path
+        android:fillColor="#EADDFF"
+        android:pathData="M73,51h14c0.8,0 1.5,0.7 1.5,1.5s-0.7,1.5 -1.5,1.5H73c-0.8,0 -1.5,-0.7 -1.5,-1.5s0.7,-1.5 1.5,-1.5z" />
+    <path
+        android:fillColor="#EADDFF"
+        android:pathData="M73,59h8c0.8,0 1.5,0.7 1.5,1.5s-0.7,1.5 -1.5,1.5H73c-0.8,0 -1.5,-0.7 -1.5,-1.5s0.7,-1.5 1.5,-1.5z" />
+
+</vector>
